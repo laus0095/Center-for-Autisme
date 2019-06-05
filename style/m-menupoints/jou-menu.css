@@ -1,0 +1,28 @@
+#wrapper #blue-nav {
+  width: 90%;
+  margin-bottom: 150px;
+}
+
+#wrapper #blue-nav ul {
+  list-style-type: none;
+}
+
+#wrapper #blue-nav ul a {
+  text-decoration: none;
+}
+
+#wrapper #blue-nav ul a li {
+  font-size: 18px;
+  padding: 10px 0;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+#wrapper #blue-nav .dd-bluenav {
+  display: none;
+}
+
+#wrapper #blue-nav .dd-bluenav a li {
+  padding: 7px 0 7px 10px;
+  font-size: 12px;
+}
+/*# sourceMappingURL=jou-menu.css.map */

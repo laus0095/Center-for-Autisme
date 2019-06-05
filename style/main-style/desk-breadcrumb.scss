@@ -1,0 +1,51 @@
+#desk-breadcrumb {
+    display: none;
+}
+
+@media only screen and (min-width: 769px) {
+
+#bluewrapper {
+    display: grid;
+    grid-template-areas:
+    'desk-b info';
+    grid-template-columns: 1fr 3fr;
+
+    #desk-breadcrumb {
+        display: block;
+        grid-area: desk-b;
+        margin: 40px 0;
+        line-height: 25px;
+
+        ul {
+            a {
+                text-decoration: none;
+                li {
+                    list-style-type: none;
+                }
+            }
+
+            .desk-fold {
+                display: none; 
+                
+                a {
+                    li {
+                        padding: 0 0 0 10px;
+                        font-size: 12px;
+
+                        &:active {
+                            font-weight: 600;
+                            
+                        }
+                    }
+                }
+    
+            }
+        }
+    }
+
+    #formål-info {
+        grid-area: info;
+    }
+}
+
+}

@@ -1,0 +1,44 @@
+#kurser-info {
+  width: 80%;
+  margin: 40px auto;
+}
+
+#kurser-info h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#kurser-info article {
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+#kurser-info article img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#kurser-info article a {
+  font-weight: 600;
+}
+
+#kurser-info article p {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+#kurser-info article .bold {
+  font-weight: 600;
+  color: dark-grey;
+}
+
+@media only screen and (min-width: 769px) {
+  #breadcrumb-blue {
+    display: none;
+  }
+  .redline {
+    border-top: 7px solid #ef3e36;
+  }
+}
+/*# sourceMappingURL=kurser.css.map */

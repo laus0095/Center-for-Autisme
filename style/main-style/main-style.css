@@ -1,0 +1,145 @@
+* {
+  font-family: helvetica;
+  font-size: 12px;
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../../assets/bgmobi.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#wrapper {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#wrapper #top {
+  width: 100%;
+  text-align: center;
+}
+
+#wrapper #top img {
+  display: block;
+  width: 50%;
+  margin: 30px auto 15px auto;
+}
+
+#wrapper #top ul {
+  width: 100%;
+  padding: 0;
+}
+
+#wrapper #top ul li {
+  display: inline;
+}
+
+#wrapper #top ul li:last-child {
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 2px solid black;
+}
+
+#wrapper #top ul li a {
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+#wrapper #header-img #mobi-headerimg {
+  width: 100%;
+}
+
+#wrapper #header-img #desk-headerimg {
+  display: none;
+}
+
+#wrapper footer {
+  margin: 0 auto 20px auto;
+  border-top: 1px solid black;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#wrapper footer ul a {
+  text-decoration: none;
+}
+
+#wrapper footer ul a li {
+  display: inline;
+  padding: 0px 5px;
+}
+
+#desktop-nav {
+  display: none;
+}
+
+@media only screen and (min-width: 769px) {
+  * {
+    font-size: 15px;
+  }
+  body {
+    background-image: url(../../assets/bgdesk.png);
+  }
+  #wrapper {
+    max-width: 1200px;
+    margin: auto;
+  }
+  #wrapper #top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    margin: 20px auto;
+  }
+  #wrapper #top #logo-container {
+    width: 30%;
+  }
+  #wrapper #top #logo-container #cfalogo {
+    margin: 0 0 0 10px;
+  }
+  #wrapper #top #top-nav {
+    width: 35%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #wrapper #top #top-nav .top-nav-points {
+    padding: 5px 5px;
+    text-decoration: none;
+  }
+  #wrapper #top #top-nav .top-nav-points:last-child {
+    margin-left: 12px;
+    padding-left: 20px;
+    border-left: 2px solid black;
+  }
+  #wrapper #top #top-nav .top-nav-points li {
+    display: inline;
+  }
+  #wrapper #header-img #mobi-headerimg {
+    display: none;
+  }
+  #wrapper #header-img #desk-headerimg {
+    display: block;
+    width: 100%;
+  }
+  #desktop-nav {
+    display: block;
+  }
+}
+/*# sourceMappingURL=main-style.css.map */

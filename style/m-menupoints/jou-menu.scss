@@ -1,0 +1,34 @@
+#wrapper {
+
+    #blue-nav {
+        width: 90%;
+        margin-bottom: 150px;
+
+        ul {
+            list-style-type: none;
+            
+            a{
+                text-decoration: none;
+
+                li{
+                    font-size: 18px;
+                    padding: 10px 0;
+                    border-bottom: 1px solid rgb(191, 191, 191);
+                    
+                }     
+            }
+        }
+
+        .dd-bluenav {
+            display: none; 
+            
+            a {
+                li {
+                    padding: 7px 0 7px 10px;
+                    font-size: 12px;
+                }
+            }
+
+        }
+    }
+}

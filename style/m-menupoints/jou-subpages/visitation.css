@@ -1,0 +1,29 @@
+#visitation-info {
+  width: 80%;
+  margin: 40px auto;
+}
+
+#visitation-info h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#visitation-info p {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+#visitation-info ul li {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 769px) {
+  #breadcrumb-blue {
+    display: none;
+  }
+  .blueline {
+    border-top: 7px solid #009ddc;
+  }
+}
+/*# sourceMappingURL=visitation.css.map */

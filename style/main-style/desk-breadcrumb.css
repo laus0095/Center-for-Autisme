@@ -1,0 +1,44 @@
+@charset "UTF-8";
+#desk-breadcrumb {
+  display: none;
+}
+
+@media only screen and (min-width: 769px) {
+  #bluewrapper {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: 'desk-b info';
+    -ms-grid-columns: 1fr 3fr;
+        grid-template-columns: 1fr 3fr;
+  }
+  #bluewrapper #desk-breadcrumb {
+    display: block;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: desk-b;
+    margin: 40px 0;
+    line-height: 25px;
+  }
+  #bluewrapper #desk-breadcrumb ul a {
+    text-decoration: none;
+  }
+  #bluewrapper #desk-breadcrumb ul a li {
+    list-style-type: none;
+  }
+  #bluewrapper #desk-breadcrumb ul .desk-fold {
+    display: none;
+  }
+  #bluewrapper #desk-breadcrumb ul .desk-fold a li {
+    padding: 0 0 0 10px;
+    font-size: 12px;
+  }
+  #bluewrapper #desk-breadcrumb ul .desk-fold a li:active {
+    font-weight: 600;
+  }
+  #bluewrapper #formål-info {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: info;
+  }
+}
+/*# sourceMappingURL=desk-breadcrumb.css.map */

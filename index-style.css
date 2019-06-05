@@ -1,0 +1,120 @@
+@charset "UTF-8";
+#mobile-nav {
+  margin: 20px auto;
+  width: 80%;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'job net' 'råd for';
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  text-align: center;
+}
+
+#mobile-nav #job {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: job;
+  text-decoration: none;
+}
+
+#mobile-nav #job img {
+  width: 50%;
+}
+
+#mobile-nav #net {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: net;
+  text-decoration: none;
+}
+
+#mobile-nav #net img {
+  width: 50%;
+}
+
+#mobile-nav #råd {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: råd;
+  text-decoration: none;
+}
+
+#mobile-nav #råd img {
+  width: 50%;
+}
+
+#mobile-nav #for {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: for;
+  text-decoration: none;
+}
+
+#mobile-nav #for img {
+  width: 50%;
+}
+
+#scrollarrow {
+  width: 100%;
+}
+
+#scrollarrow img {
+  display: block;
+  width: 15%;
+  opacity: 0.5;
+  margin: auto;
+}
+
+#content {
+  margin: 30px auto;
+  width: 90%;
+  text-align: center;
+}
+
+#content h2 {
+  margin-bottom: 5px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#content p {
+  margin-top: 5px;
+}
+
+@media only screen and (min-width: 769px) {
+  #mobile-nav {
+    display: none;
+  }
+  #scrollarrow {
+    display: none;
+  }
+  #content {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: block;
+    margin: 30px auto;
+    padding: 20px;
+    width: 33%;
+    float: left;
+    text-align: center;
+  }
+  #content h2 {
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  #content p {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
+
+/**
+ * ----------------------------------------
+ * animation pulsate-fwd
+ * ----------------------------------------
+ */
+/*# sourceMappingURL=index-style.css.map */

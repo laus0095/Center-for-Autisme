@@ -1,0 +1,15 @@
+#wrapper #stu-info {
+  width: 80%;
+  margin: 40px auto;
+}
+
+#wrapper #stu-info h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#wrapper #stu-info p {
+  line-height: 25px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=stu.css.map */

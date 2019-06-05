@@ -1,0 +1,28 @@
+#net-group-info {
+    width: 80%;
+    margin: 40px auto;
+
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    ul {
+        li {
+            line-height: 25px;
+            font-size: 15px;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 769px) {
+
+    #breadcrumb-blue {
+        display: none;
+    }
+
+    .greenline {
+        border-top: 7px solid #4cb944;
+    }
+}

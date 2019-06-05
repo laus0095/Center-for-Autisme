@@ -1,0 +1,37 @@
+#nap-info {
+    width: 80%;
+    margin: 40px auto;
+
+    h2 {
+        padding-top: 20px; 
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    p {
+        line-height: 25px;
+        font-size: 15px;
+    }  
+
+    ul {
+        li {
+            line-height: 20px;
+            font-size: 15px;
+            list-style-type: none;
+        }
+    }
+
+    .subheader {
+        margin-top: 30px;
+        margin-bottom: -10px;
+        font-style: italic;
+    }
+}
+
+
+@media only screen and (min-width: 769px) {
+
+    #breadcrumb-blue {
+        display: none;
+    }
+}
